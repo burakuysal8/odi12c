@@ -3,6 +3,7 @@ burakuysal@oratekbilisim.com
 0532 525 4536
 
 https://pastepool.com/#-garanti_odi2
+https://github.com/burakuysal8/odi12c
 
 Laptop Listesi:
 
@@ -11,3 +12,22 @@ Laptop Listesi:
 3- Ebru Ergunoğlu
 4- Emirhan Ekşi  
 5- Banu Hoş
+
+ODI 12C Download:
+https://www.oracle.com/tr/middleware/technologies/data-integrator-downloads.html
+
+Repository Creation:
+/u01/Middleware/Oracle_Home_1213/oracle_common/bin/rcu
+
+localhost
+1521
+orcl
+
+sys
+oracle
+
+Master + Work = DEV_ODI_REPO
+                oracle
+
+SUPERVISOR/oracle
+
