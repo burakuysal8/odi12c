@@ -16,6 +16,7 @@ Laptop Listesi:
 ODI 12C Download:
 https://www.oracle.com/tr/middleware/technologies/data-integrator-downloads.html
 
+-------------------------------------------------
 Repository Creation:
 /u01/Middleware/Oracle_Home_1213/oracle_common/bin/rcu
 
@@ -26,8 +27,17 @@ orcl
 sys
 oracle
 
-Master + Work = DEV_ODI_REPO
+Master + Work = DEV_ODI_REPO (Workrep)
                 oracle
 
 SUPERVISOR/oracle
+-------------------------------------------------
+
+-------------------------------------------------
+SQL Developer:
+
+locate sqldeveloper.sh
+/u02/orcl/orcl2/sqldeveloper/sqldeveloper.sh
+-------------------------------------------------
+
 
