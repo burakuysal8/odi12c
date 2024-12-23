@@ -10,8 +10,10 @@ Laptop Listesi:
 1- Cansu Özlü
 2- Nedim Atmaca
 3- Ebru Ergunoğlu
-4- Emirhan Ekşi  
-5- Banu Hoş
+
+Nihal:
+0537 429 26 21
+
 
 ODI 12C Download:
 https://www.oracle.com/tr/middleware/technologies/data-integrator-downloads.html
@@ -84,4 +86,13 @@ create user DEV_ODI_WORK_REPO_PROD identified by oracle
 grant connect,dba to DEV_ODI_WORK_REPO_PROD
 
 Name: WORKREPO_PROD
+-------------------------------------------------
+
+-------------------------------------------------
+orcl2 database startup:
+
+. oraenv
+orcl2
+sqlplus / as sysdba
+startup
 -------------------------------------------------
