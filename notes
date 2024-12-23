@@ -40,4 +40,25 @@ locate sqldeveloper.sh
 /u02/orcl/orcl2/sqldeveloper/sqldeveloper.sh
 -------------------------------------------------
 
+-------------------------------------------------
+ODI Studio:
+locate odi.sh
 
+su -
+oracle
+/u01/Middleware/Oracle_Home_1213/odi/studio/odi.sh
+-------------------------------------------------
+
+-------------------------------------------------
+ODI Studio Login:
+
+ODI_REPO
+SUPERVISOR/oracle
+
+Master Repo:
+DEV_ODI_REPO/oracle
+
+URL: jdbc:oracle:thin:@localhost:1521:orcl
+
+Work Repo: WORKREP
+-------------------------------------------------
