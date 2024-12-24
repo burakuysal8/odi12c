@@ -125,6 +125,9 @@ show tables;
 select * from SRC_CUSTOMER;
 
 ps -ef | grep mysql
+su -
+oracle
+service mysqld start
 -------------------------------------------------
 
 SELECT * FROM ALL_TABLES WHERE OWNER='DEV_ODI_REPO'
