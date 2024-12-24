@@ -151,3 +151,11 @@ grant connect,dba to DEV_ODI_WORK_REPO_PROD
 
 
 SELECT * FROM ALL_TABLES WHERE OWNER='DEV_ODI_WORK_REPO_PROD'
+
+
+
+-------------------------------------------------
+ORACLE_ORCL2
+system/Welcome1
+jdbc:oracle:thin:@localhost:1521:orcl2
+-------------------------------------------------
