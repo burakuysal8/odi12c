@@ -3,6 +3,7 @@ burakuysal@oratekbilisim.com
 0532 525 4536
 
 https://pastepool.com/#-garanti_odi2
+
 https://github.com/burakuysal8/odi12c
 
 Laptop Listesi:
@@ -40,6 +41,21 @@ SQL Developer:
 
 locate sqldeveloper.sh
 /u02/orcl/orcl2/sqldeveloper/sqldeveloper.sh
+nohup /u02/orcl/orcl2/sqldeveloper/sqldeveloper.sh &
+
+Connection Name --> ORCL2:
+username: sys
+password: Welcome1
+
+Network Alias: ORCL2
+
+
+
+Connection Name --> ORCL:
+username: sys
+password: oracle
+
+Network Alias: ORCL
 -------------------------------------------------
 
 -------------------------------------------------
@@ -49,6 +65,7 @@ locate odi.sh
 su -
 oracle
 /u01/Middleware/Oracle_Home_1213/odi/studio/odi.sh
+nohup /u01/Middleware/Oracle_Home_1213/odi/studio/odi.sh &
 -------------------------------------------------
 
 -------------------------------------------------
@@ -96,3 +113,27 @@ orcl2
 sqlplus / as sysdba
 startup
 -------------------------------------------------
+
+
+
+SELECT * FROM ALL_TABLES WHERE OWNER='DEV_ODI_REPO'
+
+220 = master + work
+
+67  - master     = DEV_ODI_REPO/oracle
+153 - work(dev)  = DEV_ODI_WORK_REPO/oracle
+59  - work(exec) = DEV_ODI_WORK_REPO_PROD/oracle
+
+create user DEV_ODI_WORK_REPO identified by oracle
+
+grant connect,dba to DEV_ODI_WORK_REPO
+
+SELECT * FROM ALL_TABLES WHERE OWNER='DEV_ODI_WORK_REPO'
+
+
+create user DEV_ODI_WORK_REPO_PROD identified by oracle
+
+grant connect,dba to DEV_ODI_WORK_REPO_PROD
+
+
+SELECT * FROM ALL_TABLES WHERE OWNER='DEV_ODI_WORK_REPO_PROD'
