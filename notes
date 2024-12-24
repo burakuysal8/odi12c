@@ -159,3 +159,9 @@ ORACLE_ORCL2
 system/Welcome1
 jdbc:oracle:thin:@localhost:1521:orcl2
 -------------------------------------------------
+
+-------------------------------------------------
+u: root
+p: oracle
+jdbc:mysql://localhost:3306/mysql
+-------------------------------------------------
