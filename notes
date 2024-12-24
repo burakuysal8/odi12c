@@ -123,6 +123,8 @@ use sales_dev;
 show tables;
 
 select * from SRC_CUSTOMER;
+
+ps -ef | grep mysql
 -------------------------------------------------
 
 SELECT * FROM ALL_TABLES WHERE OWNER='DEV_ODI_REPO'
