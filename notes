@@ -244,3 +244,25 @@ DELETE FROM <%=odiRef.getObjectName("TRG_SALES_PERSON_H")
 <%
 }
 %>
+
+
+
+create table <%=odiRef.getTable("L", "TARG_NAME", "A")%>_H
+
+(
+	<%=odiRef.getColList("", "[COL_NAME]\t[DEST_CRE_DT]NULL", ",\n\t", "", "PK")%>,
+	AUDIT_DATE		DATE,
+	AUDIT_INDICATOR		VARCHAR2(1)
+)
+
+
+Insert into <%=odiRef.getTable("L", "TARG_NAME", "A")%>_H
+	(
+	<%=odiRef.getColList("", "[COL_NAME]", ",\n\t", "", "PK")%>,
+	AUDIT_DATE,
+	AUDIT_INDICATOR
+	)
+select	<%=odiRef.getColList("", "[COL_NAME]", ",\n\t", "", "PK")%>,
+	sysdate,
+	IND_UPDATE
+from	<%=odiRef.getTable("L","INT_NAME","W")%>
