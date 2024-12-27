@@ -223,14 +223,14 @@ DATE_UPDATED DATE NOT NULL
 
 
 begin
-insert into odi_stage.src_sales_person values (1,'Burak1','Uysal','2000/02/03',sysdate);
-insert into odi_stage.src_sales_person values (2,'Burak2','Uysal','2000/02/03',sysdate);
-insert into odi_stage.src_sales_person values (3,'Burak3','Uysal','2000/02/03',sysdate);
-insert into odi_stage.src_sales_person values (4,'Burak4','Uysal','2000/02/03',sysdate);
-insert into odi_stage.src_sales_person values (5,'Burak5','Uysal','2000/02/03',sysdate);
-insert into odi_stage.src_sales_person values (6,'Burak6','Uysal','2000/02/03',sysdate);
-insert into odi_stage.src_sales_person values (7,'Burak7','Uysal','2000/02/03',sysdate);
-insert into odi_stage.src_sales_person values (8,'Burak8','Uysal','2000/02/03',sysdate);
-insert into odi_stage.src_sales_person values (9,'Burak9','Uysal','2000/02/03',sysdate);
-insert into odi_stage.src_sales_person values (10,'Bura0k','Uysal','2000/02/03',sysdate);
+insert into odi_stage.src_sales_person values (1,'Burak1','Uysal','02-MAR-2000',sysdate);
+insert into odi_stage.src_sales_person values (2,'Burak2','Uysal','02-MAR-2000',sysdate);
+insert into odi_stage.src_sales_person values (3,'Burak3','Uysal','02-MAR-2000',sysdate);
+insert into odi_stage.src_sales_person values (4,'Burak4','Uysal','02-MAR-2000',sysdate);
+insert into odi_stage.src_sales_person values (5,'Burak5','Uysal','02-MAR-2000',sysdate);
+insert into odi_stage.src_sales_person values (6,'Burak6','Uysal','02-MAR-2000',sysdate);
+insert into odi_stage.src_sales_person values (7,'Burak7','Uysal','02-MAR-2000',sysdate);
+insert into odi_stage.src_sales_person values (8,'Burak8','Uysal','02-MAR-2000',sysdate);
+insert into odi_stage.src_sales_person values (9,'Burak9','Uysal','02-MAR-2000',sysdate);
+insert into odi_stage.src_sales_person values (10,'Bura0k','Uysal','02-MAR-2000',sysdate);
 end;
