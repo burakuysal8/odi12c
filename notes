@@ -194,3 +194,7 @@ CREATE TABLE SH.SALE_SON
   "CUST_LAST_NAME" VARCHAR2(40 BYTE),
   "PROD_NAME" VARCHAR2(50 BYTE)
    )
+
+
+
+/u01/Middleware/Oracle_Home_1213/oracle_common/common/bin/config.sh
