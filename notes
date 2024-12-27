@@ -204,3 +204,7 @@ nohup /u01/Middleware/Oracle_Home_1213/user_projects/domains/agent1/bin/agent.sh
 
 Scenario Execution:
 /u01/Middleware/Oracle_Home_1213/user_projects/domains/agent1/bin/startscen.sh -NAME=OracleDIAgent1 MAP_TRG_SALES 001 DEVELOPMENT
+
+
+create user ODI_STAGE identified by ODI_STAGE
+grant connect,dba to ODI_STAGE
