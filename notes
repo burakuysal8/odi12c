@@ -198,3 +198,9 @@ CREATE TABLE SH.SALE_SON
 
 
 /u01/Middleware/Oracle_Home_1213/oracle_common/common/bin/config.sh
+
+Agent Start:
+nohup /u01/Middleware/Oracle_Home_1213/user_projects/domains/agent1/bin/agent.sh -NAME=OracleDIAgent1 &
+
+Scenario Execution:
+/u01/Middleware/Oracle_Home_1213/user_projects/domains/agent1/bin/startscen.sh -NAME=OracleDIAgent1 MAP_TRG_SALES 001 DEVELOPMENT
