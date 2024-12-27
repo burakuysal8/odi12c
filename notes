@@ -234,3 +234,13 @@ insert into odi_stage.src_sales_person values (8,'Burak8','Uysal','02-MAR-2000',
 insert into odi_stage.src_sales_person values (9,'Burak9','Uysal','02-MAR-2000',sysdate);
 insert into odi_stage.src_sales_person values (10,'Bura0k','Uysal','02-MAR-2000',sysdate);
 end;
+
+
+<% if (odiRef.getOption("DELETE_AUDIT_RECORD").equals("Y"))
+{
+%>
+DELETE FROM <%=odiRef.getObjectName("TRG_SALES_PERSON_H") 
+%>
+<%
+}
+%>
